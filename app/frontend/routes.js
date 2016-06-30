@@ -4,4 +4,12 @@ module.exports = function(app){
 	response.render('frontend/index');
 	});
 
+	app.get('menu', function(request, response) {
+	response.render('frontend/menu');
+	});
+
+	app.get('contact', function(request, response) {
+	response.render('frontend/contact');
+	});
+
 }
